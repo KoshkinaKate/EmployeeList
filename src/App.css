@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 2px solid black;
+  padding: 5px 5px 5px 5px;
+  background-color: #51515130;
+}
+
+main {
+  display: flex;
+}
+
+#home-page {
+  width: 50%;
+}
+
+#employee-page {
+  width: 50%;
+}
+
+#employee-info-container {
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #80808030;
+}
+
+.employee-info {
+  border-bottom: 1px solid gray;
+}
+
+.employee h3, 
+.employee h4, 
+.employee p {
+  margin: 20px
+}
